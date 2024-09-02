@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Skills() {
     return (
         <section id="skills" className="bg-gray-900 text-gray-400 body-font">
@@ -14,7 +16,7 @@ export default function Skills() {
                     {/* Next.js */}
                     <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
                         <div className="bg-gray-800 rounded-lg p-6 text-center">
-                            <img
+                            <Image
                                 src="/next.svg"
                                 alt="Next.js"
                                 className="w-16 h-16 mb-4 mx-auto"
@@ -28,7 +30,7 @@ export default function Skills() {
                     {/* React */}
                     <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
                         <div className="bg-gray-800 rounded-lg p-6 text-center">
-                            <img
+                            <Image
                                 src="/react.svg"
                                 alt="React"
                                 className="w-16 h-16 mb-4 mx-auto"
@@ -42,7 +44,7 @@ export default function Skills() {
                     {/* Node.js */}
                     <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
                         <div className="bg-gray-800 rounded-lg p-6 text-center">
-                            <img
+                            <Image
                                 src="/node.svg"
                                 alt="Node.js"
                                 className="w-16 h-16 mb-4 mx-auto"
@@ -56,7 +58,7 @@ export default function Skills() {
                     {/* Express */}
                     <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
                         <div className="bg-gray-800 rounded-lg p-6 text-center">
-                            <img
+                            <Image
                                 src="/express.svg"
                                 alt="Express"
                                 className="w-16 h-16 mb-4 mx-auto"
@@ -70,7 +72,7 @@ export default function Skills() {
                     {/* MongoDB */}
                     <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
                         <div className="bg-gray-800 rounded-lg p-6 text-center">
-                            <img
+                            <Image
                                 src="/mongo.png"
                                 alt="MongoDB"
                                 className="w-16 h-16 mb-4 mx-auto"
@@ -84,7 +86,7 @@ export default function Skills() {
                     {/* Python */}
                     <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
                         <div className="bg-gray-800 rounded-lg p-6 text-center">
-                            <img
+                            <Image
                                 src="/python.svg"
                                 alt="MongoDB"
                                 className="w-16 h-16 mb-4 mx-auto"
@@ -98,7 +100,7 @@ export default function Skills() {
                     {/* HTML */}
                     <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
                         <div className="bg-gray-800 rounded-lg p-6 text-center">
-                            <img
+                            <Image
                                 src="/html.svg"
                                 alt="MongoDB"
                                 className="w-16 h-16 mb-4 mx-auto"
@@ -112,7 +114,7 @@ export default function Skills() {
                     {/* CSS */}
                     <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
                         <div className="bg-gray-800 rounded-lg p-6 text-center">
-                            <img
+                            <Image
                                 src="/css.svg"
                                 alt="MongoDB"
                                 className="w-16 h-16 mb-4 mx-auto"
@@ -126,7 +128,7 @@ export default function Skills() {
                     {/* Javascript */}
                     <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
                         <div className="bg-gray-800 rounded-lg p-6 text-center">
-                            <img
+                            <Image
                                 src="/javascript.svg"
                                 alt="MongoDB"
                                 className="w-16 h-16 mb-4 mx-auto"

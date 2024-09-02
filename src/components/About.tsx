@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
     return (
         <section id="about" className="bg-gray-900 text-gray-400 body-font">
@@ -26,7 +28,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img
+                    <Image
                         className="object-cover object-center rounded-full"
                         alt="hero"
                         src="https://dummyimage.com/300x300"

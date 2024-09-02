@@ -30,7 +30,7 @@ export default function Projects() {
                             </h2>
                             
                             <p className="text-base mb-4">
-                                This was my first project. It's a plain site using Html, Css & Js
+                                This was my first project. It&apos;s a plain site using Html, Css & Js
                             </p>
 
                             <a href="#" className="text-blue-400 hover:text-blue-300">
@@ -55,7 +55,7 @@ export default function Projects() {
                             </h2>
                             
                             <p className="text-base mb-4">
-                                This was my second project. It's a 
+                                This was my second project. It&apos;s a 
                             </p>
 
                             <a href="#" className="text-blue-400 hover:text-blue-300">
@@ -80,7 +80,7 @@ export default function Projects() {
                             </h2>
                             
                             <p className="text-base mb-4">
-                                This was my Third project. It's a 
+                                This was my Third project. It&apos;s a 
                             </p>
 
                             <a href="#" className="text-blue-400 hover:text-blue-300">
@@ -105,7 +105,7 @@ export default function Projects() {
                             </h2>
                             
                             <p className="text-base mb-4">
-                                This was my Fourth project. It's a 
+                                This was my Fourth project. It&apos;s a 
                             </p>
 
                             <a href="#" className="text-blue-400 hover:text-blue-300">

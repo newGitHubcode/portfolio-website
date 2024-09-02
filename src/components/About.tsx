@@ -7,10 +7,12 @@ export default function About() {
                         Hi, My name is Fadil
                         <br className="hidden lg:inline-block"/> I'm a Developer & I make websites
                     </h1>
+
                     <p className="mb-8 leading-relaxed">
                         I'm a full-stack Developer, I specialize in building and making websites.
                         Some of my skills include: NextJs, React, Node, Express, MongoDB.
                     </p>
+
                     <div className="flex justify-center">
                         <a href="#contact" className="inline-flex tex-white bg-blue-500 border-0 p-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg" >
                             Contact me

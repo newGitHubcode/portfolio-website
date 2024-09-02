@@ -81,6 +81,62 @@ export default function Skills() {
                         </div>
                     </div>
 
+                    {/* Python */}
+                    <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
+                        <div className="bg-gray-800 rounded-lg p-6 text-center">
+                            <img
+                                src="/python.svg"
+                                alt="MongoDB"
+                                className="w-16 h-16 mb-4 mx-auto"
+                            />
+                            <h2 className="text-lg text-white font-medium title-font">
+                                Python
+                            </h2>
+                        </div>
+                    </div>
+
+                    {/* HTML */}
+                    <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
+                        <div className="bg-gray-800 rounded-lg p-6 text-center">
+                            <img
+                                src="/html.svg"
+                                alt="MongoDB"
+                                className="w-16 h-16 mb-4 mx-auto"
+                            />
+                            <h2 className="text-lg text-white font-medium title-font">
+                                Html
+                            </h2>
+                        </div>
+                    </div>
+
+                    {/* CSS */}
+                    <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
+                        <div className="bg-gray-800 rounded-lg p-6 text-center">
+                            <img
+                                src="/css.svg"
+                                alt="MongoDB"
+                                className="w-16 h-16 mb-4 mx-auto"
+                            />
+                            <h2 className="text-lg text-white font-medium title-font">
+                                Css
+                            </h2>
+                        </div>
+                    </div>
+
+                    {/* Javascript */}
+                    <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
+                        <div className="bg-gray-800 rounded-lg p-6 text-center">
+                            <img
+                                src="/javascript.svg"
+                                alt="MongoDB"
+                                className="w-16 h-16 mb-4 mx-auto"
+                            />
+                            <h2 className="text-lg text-white font-medium title-font">
+                                Javascript
+                            </h2>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>

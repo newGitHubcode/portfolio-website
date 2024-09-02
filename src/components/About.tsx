@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 export default function About() {
     return (
         <section id="about" className="bg-gray-900 text-gray-400 body-font">
@@ -16,15 +16,15 @@ export default function About() {
                     </p>
 
                     <div className="flex justify-center">
-                        <a href="#contact" className="inline-flex tex-white bg-blue-500 border-0 p-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg" >
+                        <Link href="#contact" className="inline-flex tex-white bg-blue-500 border-0 p-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg" >
                             Contact me
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                             href="#projects"
                             className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
                         >
                             See My Projects
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -32,6 +32,8 @@ export default function About() {
                         className="object-cover object-center rounded-full"
                         alt="hero"
                         src="https://dummyimage.com/300x300"
+                        height={300}
+                        width={300}
                     />
                 </div>
             </div>

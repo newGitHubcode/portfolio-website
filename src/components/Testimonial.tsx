@@ -1,7 +1,7 @@
 export default function Testemonial() {
     return (
-        <div>
+        <section id="testimonials">
             <h1>Testemonial</h1>
-        </div>
+        </section>
     );
 }

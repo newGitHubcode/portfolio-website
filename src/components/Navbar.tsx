@@ -11,11 +11,11 @@ export default function Navbar() {
                     <Link href="#about" className="text-gray-300 hover:text-white">
                         About
                     </Link>
-                    <Link href="#projects" className="text-gray-300 hover:text-white">
-                        Projects
-                    </Link>
                     <Link href="#skills" className="text-gray-300 hover:text-white">
                         Skills
+                    </Link>
+                    <Link href="#projects" className="text-gray-300 hover:text-white">
+                        Projects
                     </Link>
                     <Link href="#testimonials" className="text-gray-300 hover:text-white">
                         Testimonials

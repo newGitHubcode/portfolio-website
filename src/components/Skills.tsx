@@ -20,6 +20,8 @@ export default function Skills() {
                                 src="/next.svg"
                                 alt="Next.js"
                                 className="w-16 h-16 mb-4 mx-auto"
+                                height={50}
+                                width={50}
                             />
                             <h2 className="text-lg text-white font-medium title-font">
                                 Next.js
@@ -34,6 +36,8 @@ export default function Skills() {
                                 src="/react.svg"
                                 alt="React"
                                 className="w-16 h-16 mb-4 mx-auto"
+                                height={50}
+                                width={50}
                             />
                             <h2 className="text-lg text-white font-medium title-font">
                                 React
@@ -48,6 +52,8 @@ export default function Skills() {
                                 src="/node.svg"
                                 alt="Node.js"
                                 className="w-16 h-16 mb-4 mx-auto"
+                                height={50}
+                                width={50}
                             />
                             <h2 className="text-lg text-white font-medium title-font">
                                 Node.js
@@ -62,6 +68,8 @@ export default function Skills() {
                                 src="/express.svg"
                                 alt="Express"
                                 className="w-16 h-16 mb-4 mx-auto"
+                                height={50}
+                                width={50}
                             />
                             <h2 className="text-lg text-white font-medium title-font">
                                 Express
@@ -76,6 +84,8 @@ export default function Skills() {
                                 src="/mongo.png"
                                 alt="MongoDB"
                                 className="w-16 h-16 mb-4 mx-auto"
+                                height={50}
+                                width={50}
                             />
                             <h2 className="text-lg text-white font-medium title-font">
                                 MongoDB
@@ -90,6 +100,8 @@ export default function Skills() {
                                 src="/python.svg"
                                 alt="MongoDB"
                                 className="w-16 h-16 mb-4 mx-auto"
+                                height={50}
+                                width={50}
                             />
                             <h2 className="text-lg text-white font-medium title-font">
                                 Python
@@ -104,6 +116,8 @@ export default function Skills() {
                                 src="/html.svg"
                                 alt="MongoDB"
                                 className="w-16 h-16 mb-4 mx-auto"
+                                height={50}
+                                width={50}
                             />
                             <h2 className="text-lg text-white font-medium title-font">
                                 Html
@@ -118,6 +132,8 @@ export default function Skills() {
                                 src="/css.svg"
                                 alt="MongoDB"
                                 className="w-16 h-16 mb-4 mx-auto"
+                                height={50}
+                                width={50}
                             />
                             <h2 className="text-lg text-white font-medium title-font">
                                 Css
@@ -132,6 +148,8 @@ export default function Skills() {
                                 src="/javascript.svg"
                                 alt="MongoDB"
                                 className="w-16 h-16 mb-4 mx-auto"
+                                height={50}
+                                width={50}
                             />
                             <h2 className="text-lg text-white font-medium title-font">
                                 Javascript

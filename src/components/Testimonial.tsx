@@ -38,7 +38,7 @@ export default function Testemonial() {
                             </div>
 
                             <p className="leading-relaxed mt-4">
-                                "This developer is good."
+                                &quot;This developer is good.&quot;
                             </p>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ export default function Testemonial() {
                             </div>
 
                             <p className="leading-relaxed mt-4">
-                                "This website is Amazing, the creator must have put a lot of work into it"
+                                &quot;This website is Amazing, the creator must have put a lot of work into it&quot;
                             </p>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ export default function Testemonial() {
                             </div>
 
                             <p className="leading-relaxed mt-4">
-                                "The Developer is very good at his job"
+                                &quot;The Developer is very good at his job&quot;
                             </p>
                         </div>
                     </div>
@@ -125,7 +125,7 @@ export default function Testemonial() {
                             </div>
 
                             <p className="leading-relaxed mt-4">
-                                "The website good."
+                                &quot;The website good.&quot;
                             </p>
                         </div>
                     </div>

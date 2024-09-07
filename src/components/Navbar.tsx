@@ -20,6 +20,9 @@ export default function Navbar() {
                     <Link href="#testimonials" className="text-gray-300 hover:text-white">
                         Testimonials
                     </Link>
+                    <Link href="#feedback" className="text-gray-300 hover:text-white">
+                        Feedback
+                    </Link>
                     <Link href="#contact" className="text-gray-300 hover:text-white">
                         Contact
                     </Link>

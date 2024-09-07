@@ -11,7 +11,7 @@ export default function About() {
                     </h1>
 
                     <p className="mb-8 leading-relaxed">
-                        I&apos;m a full-stack Developer, I specialize in building and making websites.
+                        I&apos;m a programming enthusiast, I like building and making websites.
                         Some of my skills include: NextJs, React, Node, Express, MongoDB.
                     </p>
 

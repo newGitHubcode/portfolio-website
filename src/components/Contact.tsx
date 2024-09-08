@@ -17,7 +17,7 @@ export default function Contact() {
 
                 <div className="flex justify-center space-x-8">
                     <Link 
-                        href={"github.com"}
+                        href={"https://github.com/newgithubcode"}
                         className="text-gray-400 hover:text-white text-4xl"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -27,7 +27,7 @@ export default function Contact() {
                     </Link>
 
                     <Link 
-                        href={"discord.com"}
+                        href={"https://discord.com"}
                         className="text-gray-400 hover:text-white text-4xl"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -37,7 +37,7 @@ export default function Contact() {
                     </Link>
 
                     <Link 
-                        href={"github.com"}
+                        href={"mailto:qdasdsadsada@gmail.com"}
                         className="text-gray-400 hover:text-white text-4xl"
                         target="_blank"
                         rel="noopener noreferrer"

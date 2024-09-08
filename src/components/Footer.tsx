@@ -4,7 +4,7 @@ export default function Footer() {
             <div className="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col">
                 <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
                     <span className="ml-3 text-xl">
-                        Footer
+                        Portfolio
                     </span>
                 </a>
 
@@ -12,7 +12,7 @@ export default function Footer() {
                     @ {new Date().getFullYear()} 
                 </p>
                 <p className="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4">
-                    Made in 2024
+                    Made using NextJs and hosted on Vercel
                 </p>
             </div>
         </footer>

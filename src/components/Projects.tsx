@@ -19,9 +19,9 @@ export default function Projects() {
                         <div className="bg-gray-800 p-6 rounded-lg">
                             <Image 
                                 className="object-cover object-center w-full h-48 rounded-lg"
-                                src="https://via.placeholder.com/600x400"
+                                src="/wedding_website.png"
                                 alt="pr1"
-                                height={600}
+                                height={700}
                                 width={400}
                             />
 
@@ -30,10 +30,10 @@ export default function Projects() {
                             </h2>
                             
                             <p className="text-base mb-4">
-                                This was my first project. It&apos;s a plain site using Html, Css & Js
+                                This was my first project a Wedding website. It&apos;s a plain site using Html, Css & Js
                             </p>
 
-                            <a href="#" className="text-blue-400 hover:text-blue-300">
+                            <a href="https://newgithubcode.github.io/Wedding-Website" target="_blank" className="text-blue-400 hover:text-blue-300">
                                 View project
                             </a>
                         </div>
@@ -55,7 +55,7 @@ export default function Projects() {
                             </h2>
                             
                             <p className="text-base mb-4">
-                                This was my second project. It&apos;s a 
+                                This was my second project. It&apos;s a mini project using React and a weather api
                             </p>
 
                             <a href="#" className="text-blue-400 hover:text-blue-300">

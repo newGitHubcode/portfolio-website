@@ -22,7 +22,7 @@ export default function Projects() {
                                 src="/wedding_website.png"
                                 alt="pr1"
                                 height={700}
-                                width={400}
+                                width={700}
                             />
 
                             <h2 className="text-lg text-white font-medium title-font mt-4 mb-2">
@@ -44,10 +44,10 @@ export default function Projects() {
                         <div className="bg-gray-800 p-6 rounded-lg">
                             <Image 
                                 className="object-cover object-center w-full h-48 rounded-lg"
-                                src="https://via.placeholder.com/600x400"
+                                src="/twitter.png"
                                 alt="pr1"
-                                height={600}
-                                width={400}
+                                height={700}
+                                width={700}
                             />
 
                             <h2 className="text-lg text-white font-medium title-font mt-4 mb-2">
@@ -55,10 +55,10 @@ export default function Projects() {
                             </h2>
                             
                             <p className="text-base mb-4">
-                                This was my second project. It&apos;s a mini project using React and a weather api
+                                This is a twitter clone using Nextjs With realtime database using Supabase
                             </p>
 
-                            <a href="#" className="text-blue-400 hover:text-blue-300">
+                            <a href="https://twitter-three-gilt.vercel.app/" className="text-blue-400 hover:text-blue-300">
                                 View project
                             </a>
                         </div>

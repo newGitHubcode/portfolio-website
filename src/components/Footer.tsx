@@ -12,7 +12,7 @@ export default function Footer() {
                     @ {new Date().getFullYear()} 
                 </p>
                 <p className="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4">
-                    Made using NextJs and hosted on Vercel
+                    Something here?
                 </p>
             </div>
         </footer>

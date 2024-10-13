@@ -58,7 +58,7 @@ export default function Projects() {
                                 This is a twitter clone using Nextjs With realtime database using Supabase
                             </p>
 
-                            <a href="https://twitter-three-gilt.vercel.app/" className="text-blue-400 hover:text-blue-300">
+                            <a href="https://twitter-three-gilt.vercel.app/" className="text-blue-400 hover:text-blue-300" target="_blank">
                                 View project
                             </a>
                         </div>

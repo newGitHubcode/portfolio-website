@@ -12,6 +12,8 @@ export default function Skills() {
                         Here are some of the technologies I regularly work with.
                     </p>
                 </div>
+
+                 // Skill Icons Row
                 <div className="flex flex-wrap justify-center -m-4">
                     {/* Next.js */}
                     <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
@@ -61,21 +63,6 @@ export default function Skills() {
                         </div>
                     </div>
 
-                    {/* Express */}
-                    <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
-                        <div className="bg-gray-800 rounded-lg p-6 text-center">
-                            <Image
-                                src="/express.svg"
-                                alt="Express"
-                                className="w-16 h-16 mb-4 mx-auto"
-                                height={50}
-                                width={50}
-                            />
-                            <h2 className="text-lg text-white font-medium title-font">
-                                Express
-                            </h2>
-                        </div>
-                    </div>
 
                     {/* MongoDB */}
                     <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
@@ -109,37 +96,6 @@ export default function Skills() {
                         </div>
                     </div>
 
-                    {/* HTML */}
-                    <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
-                        <div className="bg-gray-800 rounded-lg p-6 text-center">
-                            <Image
-                                src="/html.svg"
-                                alt="MongoDB"
-                                className="w-16 h-16 mb-4 mx-auto"
-                                height={50}
-                                width={50}
-                            />
-                            <h2 className="text-lg text-white font-medium title-font">
-                                Html
-                            </h2>
-                        </div>
-                    </div>
-
-                    {/* CSS */}
-                    <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
-                        <div className="bg-gray-800 rounded-lg p-6 text-center">
-                            <Image
-                                src="/css.svg"
-                                alt="MongoDB"
-                                className="w-16 h-16 mb-4 mx-auto"
-                                height={50}
-                                width={50}
-                            />
-                            <h2 className="text-lg text-white font-medium title-font">
-                                Css
-                            </h2>
-                        </div>
-                    </div>
 
                     {/* Javascript */}
                     <div className="p-4 lg:w-1/6 md:w-1/3 w-full flex flex-col items-center">
@@ -156,7 +112,6 @@ export default function Skills() {
                             </h2>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>

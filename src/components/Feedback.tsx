@@ -49,10 +49,10 @@ export default function Feedback() {
                     </p>
                 </div>
 
-                <div className="max-w-lg mx-auto bg-gray-500 p-8 rounded-lg shadow-lg">
+                <div className="max-w-lg mx-auto bg-gray-800 p-8 rounded-lg shadow-lg">
                     <form onSubmit={handleSubmit}>
                         <div className="mb-4">
-                            <label htmlFor="name" className="leading-7 text-sm text-black">
+                            <label htmlFor="name" className="leading-7 text-sm text-white">
                                 Name
                             </label>
 
@@ -62,13 +62,13 @@ export default function Feedback() {
                                 name="name"
                                 value={name}
                                 onChange={(e) => setName(e.target.value)}
-                                className="w-full bg-gray-700 rounded border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                className="w-full bg-gray-600 rounded border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                 required
                             />
                         </div>
 
                         <div className="mb-4">
-                            <label htmlFor="email" className="leading-7 text-sm text-black">
+                            <label htmlFor="email" className="leading-7 text-sm text-white">
                                 Email
                             </label>
 
@@ -78,13 +78,13 @@ export default function Feedback() {
                                 name="email"
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
-                                className="w-full bg-gray-700 rounded border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                className="w-full bg-gray-600 rounded border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                 required
                             />
                         </div>
 
                         <div className="mb-4">
-                            <label htmlFor="feedback" className="leading-7 text-sm text-black">
+                            <label htmlFor="feedback" className="leading-7 text-sm text-white">
                                 Feedback
                             </label>
 
@@ -93,7 +93,7 @@ export default function Feedback() {
                                 name="feedback"
                                 value={feedback}
                                 onChange={(e) => setFeedback(e.target.value)}
-                                className="w-full bg-gray-700 rounded border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                className="w-full bg-gray-600 rounded border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                 required
                                 rows={4}
                             />

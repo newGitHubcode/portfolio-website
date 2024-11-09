@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Projects() {
     return (
-        <section id="projects" className="bg-gray-900 text-gray-400 body-font">
+        <section id="projects" className="bg-black text-gray-400 body-font">
            <div className="container px-5 py-24 mx-auto">
                 <div className="text-center mb-12">
                     <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">

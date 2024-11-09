@@ -2,14 +2,14 @@ import Image from 'next/image'
 
 export default function Journey() {
   const journeyData = [
-    { date:'2021', text: 'Early 2021 i heard about coding and started getting into coding and i  learned Python for a few months it was very enjoyable for me and i made it a hobby.', imageUrl: "https://dummyimage.com/100x100" },
-    { date: '2022', text:'a year later i learned the basic syntax and basics such as functions, OOP, problem solving. And i started making my first website and Learnt AI', imageUrl:"https://dummyimage.com/100x100" },
-    { date: '2023', text: 'For a year i mainly focused on school so i learned programming in my free time only', imageUrl:"https://dummyimage.com/100x100" },
-    { date: '2024', text:'Halfway on 2024 i got started learning Web Again and made a few websites. And i switched to Java Script and learned React & Nodejs', imageUrl:"https://dummyimage.com/100x100" }
+    { date:'2021', text: 'Early 2021 i heard about coding and started getting into coding and i  learned Python for a few months it was very enjoyable for me and i made it a hobby.', imageUrl: "https://picsum.photos/seed/picsum/100/100" },
+    { date: '2022', text:'a year later i learned the basic syntax and basics such as functions, OOP, problem solving. And i started making my first website and Learnt AI', imageUrl:"https://picsum.photos/100/100" },
+    { date: '2023', text: 'For a year i mainly focused on school so i learned programming in my free time only', imageUrl:"https://picsum.photos/100/100" },
+    { date: '2024', text:'Halfway on 2024 i got started learning Web Again and made a few websites. And i switched to Java Script and learned React & Nodejs', imageUrl:"https://picsum.photos/100/100" }
   ]
 
   return (
-    <section id="journey" className="bg-gray-900 text-gray-400 body-font py-24">
+    <section id="journey" className="bg-black text-gray-400 body-font py-24">
      <div className="container mx-auto px-5">
        <div className="text-center mb-12">
          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">

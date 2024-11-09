@@ -38,11 +38,11 @@ export default function Feedback() {
 
 
     return (
-        <section id="feedback" className="bg-gray-900 text-gray-400 body-font py-24">
+        <section id="feedback" className="bg-black text-gray-400 body-font py-24">
             <div className="container mx-auto px-5">
                 <div className="text-center mb-12">
                     <h1 className="sm:text-3xl text-2xl font-medium title-font text-white mb-4">
-                        We would like to hear your feedback
+                        I would like to hear your feedback
                     </h1>
                     <p>
                         Please let us know what your thoughts and suggestions of the website.
